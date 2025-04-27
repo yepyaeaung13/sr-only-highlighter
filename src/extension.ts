@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
       return;
     }
 
-    const regEx = /className\s*=\s*["']sr-only["']/g;
+    const regEx = /<[^>]*className\s*=\s*["']sr-only["'][^>]*>(.*?)<\/[^>]+>/gs;
     const text = editor.document.getText();
     const decorations: vscode.DecorationOptions[] = [];
 
