@@ -3,9 +3,12 @@
   "displayName": "SrOnly Highlighter",
   "description": "Improves DX by visually highlighting sr-only and accessibility-related classes with subtle decorations, making hidden elements easier to spot during development.",
   "version": "0.0.1",
+  "publisher": "Ye Pyae Aung",
   "engines": {
     "vscode": "^1.99.0"
   },
+  "icon": "media/icon.png",
+  "license": "MIT",
   "categories": [
     "Other"
   ],
