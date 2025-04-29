@@ -1,0 +1,9 @@
+{
+    "SR-Only Comment Span": {
+      "prefix": "cmt",
+      "body": [
+        "<span className=\"sr-only\">  $1  </span>"
+      ],
+      "description": "Insert a screen-reader-only <span> element"
+    }
+  }

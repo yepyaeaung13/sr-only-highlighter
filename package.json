@@ -2,8 +2,8 @@
   "name": "sronly-highlighter",
   "displayName": "SrOnly Highlighter",
   "description": "Improves DX by visually highlighting sr-only and accessibility-related classes with subtle decorations, making hidden elements easier to spot during development.",
-  "version": "0.0.1",
-  "publisher": "Ye Pyae Aung",
+  "version": "0.0.2",
+  "publisher": "YePyaeAung",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -24,7 +24,20 @@
     "commands": [],
     "configuration": {},
     "languages": [],
-    "snippets": [],
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/sronly-snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/sronly-snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/sronly-snippets.code-snippets"
+      }
+    ],
     "themes": []
   },
   "scripts": {

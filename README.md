@@ -1,29 +1,33 @@
 # SR-Only Highlighter
 
-A Visual Studio Code extension that highlights `sr-only` class usage with a special comment style, improving accessibility-related DX (Developer Experience) and making hidden elements easier to manage.
+A Visual Studio Code extension that enhances accessibility development by highlighting elements with the `sr-only` class and providing a convenient code snippet for quick insertion.
 
 ## Features
 
-- Detects and highlights elements with the `sr-only` class.
-- Adds a subtle comment or badge style in the editor.
-- Helps front-end developers easily find screen-reader-only content.
+- **Visual Highlighting**: Automatically detects and highlights elements with the `sr-only` class in HTML, JSX, and TSX files, making hidden elements easier to identify and manage.
+- **Code Snippet**: Offers a snippet triggered by typing `cmt`, which inserts:
 
-## How to Use
+![SR-Only Highlighter Preview](images/preview.png)
 
-Just open any HTML, React (JSX/TSX), or template file — the extension will automatically detect and highlight `sr-only` usage.
+### How to Use
 
-## Release Notes
+1. **Highlighting**: Open any HTML, React (JSX/TSX), or template file. The extension will automatically highlight elements using the `sr-only` class.
+2. **Snippet Insertion**:
+	- In your code editor, type `cmt`.
+	- Select the suggested snippet to insert the screen-reader-only `<span>` element.
 
+### Installation
+
+Install the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=YePyaeAung.sronly-highlighter).
+
+### Release Notes
+### 0.0.2
+- Added `cmt` snippet for inserting screen-reader-only `<span>` elements.
 ### 0.0.1
+- Initial release: Highlight `sr-only` classes in the editor.
 
-- Initial release: Highlight `sr-only` classes in editor.
+### Contributing
 
----
-
-## Contributing
-
-PRs are welcome! 🎉
-
----
+Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request.
 
 Made with ❤️ by Ye Pyae Aung
